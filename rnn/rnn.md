@@ -84,7 +84,7 @@ https://www.zybuluo.com/Dounm/note/591752
 
 **前向传播**的具体过程：
 前向传播是指对神经网络沿着从输入层到输出层的顺序，依次计算并存储模型中间变量的过程。
-![前向传播的计算过程][1]
+![前向传播的计算过程](media/15238767896095/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E8%BF%87%E7%A8%8B.png)
 这里假设状态的维度是2，这里初始状态向量：[0.0, 0.0]。输入和输出的维度都为1，循环体中的全连接层的权重：
 $${w_{rnn} = \left(  
   \begin{array}{ccc}  
@@ -243,7 +243,5 @@ LSTM结构的核心就是“输入门”和“遗忘门”。
 **[正则化和过拟合](https://blog.csdn.net/jinping_shi/article/details/52433975)**
 L1正则化：
 L2正则化：
-
-[1]: https://raw.githubusercontent.com/CoolRandy/deep_learning/master/RNN%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E8%BF%87%E7%A8%8B.png
 
 
